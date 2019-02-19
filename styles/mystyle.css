@@ -1,0 +1,39 @@
+/*Color Pallete
+#0B132B - Maastricht Blue
+#1C2541 - Yankees Blue
+#3A506B - Independence
+#5BC0BE - Sea Sarpent
+#6FFFE9 - Aquamarine
+*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h1, h2 {
+	font-family: 'Slabo 13px', serif;
+}
+
+h1 {
+	font-weight: 500px;
+	font-size: 70px;
+}
+h2 {
+	font-weight: 150px;
+	font-size: 40px;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 20px	;
+}
+
+
+.wrap {
+	width: 485px;
+}
+.canvas {
+	solid: black;
+}
