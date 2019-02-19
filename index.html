@@ -17,56 +17,31 @@
 		</div>
 
 	<main>
-		<table>
-			<tr>
-				<td><h2>Fuel</h2></td>
-				<td><h2>Food</h2></td>
-				<td><h2>Water</h2></td>
-			</tr>
-			<tr>
-				<th><img src="icons8-charged-battery-96.png" height="100px"></th>
-				<th><img src="icons8-charged-battery-96.png" height="100px"></th>
-				<th><img src="icons8-charged-battery-96.png" height="100px"></th>
-			</tr>
-			<tr>
-				<th>60%</th>
-				<th>85%</th>
-				<th>32%</th>
-			</tr>
-			<tr>
-				<th>Middle</th>
-				<th>High</th>
-				<th>Low</th>
-			</tr>
+		<div id = "wrap"></dir>
+			<table align="center">
+				<tr>
+					<td><h2>Fuel</h2></td>
+					<td><h2>Food</h2></td>
+					<td><h2>Water</h2></td>
+				</tr>
+				<tr>
+					<th><img id="fuelVisual" src="images/fuel_61-69.png" height="90px" width="150px"></th>
+					<th><img src="images/food_morethan81.png" width="200px"></th>
+					<th><img src="images/water_21to40.png" width="200px"></th>
+				</tr>
+				<tr>
+					<th id="fuelText">62%</th>
+					<th>85%</th>
+					<th>32%</th>
+				</tr>
+				<tr>
+					<th id="fuelPerformance" class="fuelWarning">Middle</th>
+					<th>High</th>
+					<th>Low</th>
+				</tr>
 
-		</table>
-		<!-- Ships parameters -->
-		<section id="shipsParameters" class="fuel">
-			<div class="wrap">
-				<h2>Fuel</h2>
-				<canvas width="100" height="25" id=fuelGauge></canvas>
-			</div>
-		</section>
-
-		<!-- Supplies -->
-		<section id="supplies" class="water">
-			<div class="wrap">
-				<h2>Water</h2>
-			</div>
-			
-
-		</section>
-
-		<section id="supplies" class="food">
-			<div class="wrap">
-				<h2>Food</h2>
-			</div>
-
-
-
-
-
-
+			</table>
+		</div>
 
 
 

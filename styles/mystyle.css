@@ -19,21 +19,44 @@ h1, h2 {
 h1 {
 	font-weight: 500px;
 	font-size: 70px;
+	margin:10px;
+
+	text-align: center;
 }
+h1.p {
+
+}
+
 h2 {
 	font-weight: 150px;
-	font-size: 40px;
+	font-size: 20px;
 }
 
 body {
 	font-family: 'Ubuntu', sans-serif;
+	padding-top: 0;
 	margin: 20px	;
+	background:white;
 }
 
 
-.wrap {
-	width: 485px;
+table {
+	position: center;
+	width: 600px;
 }
-.canvas {
-	solid: black;
+
+th, td{
+	padding: 10px;
+	text-align: center;
+	color: black;
+}
+
+table {
+	width:80%;
+}
+
+/*Fuel*/
+
+.fuelStable {
+	color: black;
 }
