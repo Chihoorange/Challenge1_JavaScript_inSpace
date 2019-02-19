@@ -1,3 +1,4 @@
+alert('hello Mars');
 //-------- Fuel ----------------
 var fuelData = 55;
 
