@@ -17,14 +17,16 @@ h1, h2 {
 }
 
 h1 {
-	font-weight: 500px;
+	/*font-weight: 500px;*/
+	color: white;
 	font-size: 70px;
-	margin:50px;
+	margin:80px;
 	text-align: center;
 }
 p{
 	margin:0px;
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -35,25 +37,49 @@ h2 {
 
 body {
 	font-family: 'Ubuntu', sans-serif;
+	font-size: 12pt;
 	padding-top: 0;
 	margin: 20px	;
 	background:white;
+
+}
+.content-wrap {
+	width: 100%;
+	margin:  0 auto;
+	padding: 60px 50px;
+	overflow: auto;
+	background: url(../images/nasa-53884-unsplash.jpg) no-repeat fixed;
+				background-size: 100%;
 }
 
+.text-wrap {
+	width: auto;
+	margin: 20px;
+}
 
 table {
 	position: center;
-	width: 600px;
+	width: auto;
 }
 
 th, td{
 	padding: 10px;
 	text-align: center;
 	color: black;
+	width: 300px;
 }
 
 table {
 	width:80%;
+}
+
+footer {
+	margin:0px;
+	padding-top: 100px;
+}
+
+footer p {
+	font-size:9pt;
 }
 
 /*Fuel*/
